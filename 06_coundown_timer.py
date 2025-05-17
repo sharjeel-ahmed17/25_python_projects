@@ -7,7 +7,7 @@ def countdown_timer(t):
         print(timer, end="\r")
         time.sleep(1)
         t -= 1
-    print("Time's up!")
+    print("go for a run!")
 
 if __name__ == "__main__":
     t = input("Enter the time in seconds: ")
